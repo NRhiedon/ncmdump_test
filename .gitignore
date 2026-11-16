@@ -1,11 +1,16 @@
-*.exe
-ncmdump
+# nrhiedon 修改忽略 Python 虚拟环境
+.venv/
+venv/
 
-.vscode
-.idea
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
 
-build
+# 忽略环境变量和密钥
+.env
 
-cmake-build-*
+# 忽略数据集
+dataset/
 
-vcpkg_installed
+# 忽略日志文件
+*.log
